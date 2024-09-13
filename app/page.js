@@ -9,6 +9,7 @@ import {
 } from "firebase/firestore";
 import { db } from "../firebaseConfig";
 
+
 export default function Home() {
   const [link, setLink] = useState("");
   const [text, setText] = useState("");
